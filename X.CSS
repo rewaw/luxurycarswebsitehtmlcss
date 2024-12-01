@@ -1,0 +1,55 @@
+body 
+{
+     /* Centre le contenu de la page */
+    text-align: center; 
+    padding: 20px;"
+}
+
+
+h1 
+{
+    border: 2px solid black; /* Bordure noire de 2 pixels */
+    padding: 10px;           /* Espace autour du texte */
+    display: inline-block;   /* Pour éviter que la bordure ne prenne toute la largeur */
+   
+}
+
+img
+    {
+        width: 80%;
+        height: auto;
+        border-radius: 80px;
+    }
+
+
+ b 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+
+li::before 
+    {
+        color: #0a0a0a;
+        content: "⚡";
+        text-align: right;
+    }
+
+ul 
+    {
+        list-style-position: inside; /* Place les puces à l'intérieur de l'élément */
+        padding: 0;
+        margin: 0;
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+
+
+
